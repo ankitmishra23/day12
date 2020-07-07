@@ -1,0 +1,26 @@
+img{
+    height: 350px;
+    width: 1520px;
+}
+.carddiv{
+    margin-left: 300px;
+    height: 150px;
+    width: 800px;
+    text-align: center;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+    color: darkcyan;
+}
+.carddiv:hover{
+    background-color: darkseagreen;
+}
+.detaildiv{
+    height:200px;
+    width: 1000px;
+}

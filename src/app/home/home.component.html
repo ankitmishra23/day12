@@ -1,0 +1,12 @@
+
+<div  *ngIf="!checkclick">
+<div class="carddiv" *ngFor="let d of data; let indexOfelement=index">
+    <a routerLink="detail" (click)="onclick(indexOfelement)"><h2>{{d.heading}}</h2></a>
+    <h5>Posted by {{d.name}} on {{d.postdate}}</h5>
+    <hr>
+</div>
+</div>
+<div *ngIf="checkclick" class="detaildiv">
+    <router-outlet></router-outlet>
+</div>
+

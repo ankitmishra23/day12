@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "day12task"
+    }
+  },
+  "defaultProject": "day12task",
+  "cli": {
+    "analytics": "e0d9eb15-bedb-43c3-b356-37a7bd590134"
+  }
 }
