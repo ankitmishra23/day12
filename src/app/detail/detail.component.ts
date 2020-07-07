@@ -10,6 +10,7 @@ export class DetailComponent implements OnInit {
 data=[];
 i;
   constructor(private det:DemoService) {
+    alert("To go back click on home");
     this.i=det.i;
    }
 
