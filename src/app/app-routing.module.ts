@@ -20,9 +20,6 @@ const routes: Routes = [
   {
     path:'home/detail',
     component:DetailComponent
-  },{
-    path:'back',
-    component:HomeComponent
   }
 ];
 
